@@ -18,6 +18,7 @@ echo "Enter format"
 read format
 mogrify -format $format $name
 ;;
+
 2)
 echo "Enter name:"
 read name
@@ -32,9 +33,3 @@ echo "Bye"
 break;;
 esac
 done
-
-
-
-
-
-
